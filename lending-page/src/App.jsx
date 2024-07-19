@@ -1,9 +1,12 @@
 import CaseStudiesBlock from "./CaseStudiesBlock/CaseStudiesBlock"
+import ContactBlock from "./ContactBlock/ContactBlock"
 import CATBlock from "./CTABlock/CATBlock"
+import FooterBlock from "./FooterBlock/FooterBlock"
 import GroupOfCards from "./GroupOfCards/GroupOfCards"
 import LandingPage from "./LendingPage/LandingPage"
 import ProcessBlock from "./ProcessBlock/ProcessBlock"
 import ServicesBlock from "./ServicesBlock/ServicesBlock"
+import TestimonialsBlock from "./TestimonialsBlock/TestimonialsBlock"
 
 function App() {
 
@@ -51,6 +54,16 @@ function App() {
         <p className="text-[18px]">to Learn More about Our Digital Marketing Services</p>
         </div>
       </div>
+      <TestimonialsBlock/>
+      <div className="flex flex-row items-start  gap-[40px] h-[51px] my-[70px]">
+        <p className="bg-[#B9FF66] text-black font-medium text-[36px]">Contact Us</p>
+        <div className="flex flex-col gap-0">
+        <p className="text-[18px]">Connect with Us: Let's Discuss Your </p>
+        <p className="text-[18px]">Digital Marketing Needs</p>
+        </div>
+      </div>
+      <ContactBlock/>
+      <FooterBlock/>
     </div>  
   )
 }
